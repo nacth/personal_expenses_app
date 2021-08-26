@@ -87,7 +87,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 elevation: 5,
               ),
             ),
-            NewTransaction(_addNewTransaction),
             TransactionList(_userTransactions),
           ],
         ),
